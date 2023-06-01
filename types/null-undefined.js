@@ -6,3 +6,4 @@
     let show = null;
     console.log(nothing);
 })();
+//# sourceMappingURL=null-undefined.js.map

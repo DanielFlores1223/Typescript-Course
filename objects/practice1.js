@@ -39,3 +39,4 @@ const apocalipsis = {
 let mystique;
 mystique = charles;
 mystique = apocalipsis;
+//# sourceMappingURL=practice1.js.map

@@ -4,3 +4,4 @@
     hero[0] = 'Hi';
     console.log(hero);
 })();
+//# sourceMappingURL=tuples.js.map

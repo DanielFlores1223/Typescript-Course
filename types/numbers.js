@@ -9,3 +9,4 @@
     // NaN it's a "number" on javascript
     avengers = Number('55A'); // NaN
 })();
+//# sourceMappingURL=numbers.js.map

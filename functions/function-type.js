@@ -12,3 +12,4 @@
     myFunction2 = greet;
     myFunction3 = saveTheWorld;
 })();
+//# sourceMappingURL=function-type.js.map

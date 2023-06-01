@@ -1,0 +1,1 @@
+{"version":3,"file":"union-types.js","sourceRoot":"","sources":["union-types.ts"],"names":[],"mappings":";AAAA,CAAC,GAAG,EAAE;IAKF,IAAI,gBAAgB,GAA6B,UAAU,CAAC;IAE5D,gBAAgB,GAAG,EAAE,CAAC;IAEtB,gBAAgB,GAAG;QACf,IAAI,EAAE,WAAW;QACjB,GAAG,EAAE,EAAE;QACP,MAAM,EAAE,CAAC,EAAE,CAAC;KACf,CAAA;AAEL,CAAC,CAAC,EAAE,CAAC"}

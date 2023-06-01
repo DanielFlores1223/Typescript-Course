@@ -6,3 +6,4 @@
     };
     error('Help me');
 })();
+//# sourceMappingURL=never.js.map

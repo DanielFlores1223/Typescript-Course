@@ -10,3 +10,4 @@
     const a = callBatman(); // void = empty, if the function doesn't return anything, it returns undefined  
     console.log(a);
 })();
+//# sourceMappingURL=void.js.map

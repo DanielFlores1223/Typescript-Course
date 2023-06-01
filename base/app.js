@@ -11,3 +11,4 @@ console.log(hero.age);
 function sayHello(message) {
     message.trim();
 }
+//# sourceMappingURL=app.js.map
