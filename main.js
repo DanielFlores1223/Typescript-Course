@@ -1,5 +1,28 @@
 "use strict";
 (() => {
+    class Mutant {
+        constructor(name, realName) {
+            this.name = name;
+            this.realName = realName;
+        }
+    }
+    class Xmen extends Mutant {
+        saveWorld() {
+            return "World is saved";
+        }
+    }
+    class Villian extends Mutant {
+        destroyWorld() {
+            return "World is destroyed";
+        }
+    }
+    const wolverine = new Xmen("Wolverine", "Logan");
+    const magneto = new Villian("Magneto", "Magnus");
+    const printName = (character) => {
+        console.log("Hi" + character.name);
+    };
+})();
+(() => {
     class Avenger {
         static getAvgAge() {
             return this.name;
@@ -48,5 +71,19 @@
     const wolverine = new Xmen("Wolverine", "Logan", true);
     console.log(wolverine.fullName);
     wolverine.fullName = "Pedri";
+})();
+(() => {
+    class Apocalipsis {
+        constructor(name) {
+            this.name = name;
+        }
+        static callApocalipsis() {
+            if (!Apocalipsis.instance) {
+                Apocalipsis.instance = new Apocalipsis("I am an unique apocalip");
+            }
+            return Apocalipsis.instance;
+        }
+    }
+    const apocalipsis = Apocalipsis.callApocalipsis();
 })();
 //# sourceMappingURL=main.js.map
