@@ -1,4 +1,6 @@
 (() => {
+  // a type can not extend itself and an interface can do it
+
   interface Hero {
     name: string;
     age: number;
