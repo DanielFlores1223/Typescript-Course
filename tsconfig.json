@@ -107,5 +107,5 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   //"exclude": [""] //exclude folders or files
-  "include": ["classes"]
+  "include": ["namespaces"]
 }
